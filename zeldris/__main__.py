@@ -91,17 +91,17 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-ZELDRIS_IMG = "https://telegra.ph/file/1fa00785f30375c0c1b50.jpg"
+ZELDRIS_IMG = "https://telegra.ph/file/a69a3b095a839fbad2ead.jpg"
 
 PM_START_TEXT = """
-Hey there! my name is *{}*. 
-A modular group management bot with useful features. [ㅤ](https://telegra.ph/file/fed9ba09e9add9b197c21.png)
+Hey There. Im truly Yours Cute *{}*. 
+An Anime Themed group management bot with useful features. [ㅤ](https://telegra.ph/file/fed9ba09e9add9b197c21.png)
 
 ◑ *Uptime:* `{}`
 ◑ `{}` *Users, across* `{}` *chats.*
 
 Any issues or need help related to me?
-Join our official group [IDNCoderX](https://t.me/IDNCoderX).
+Join our official group [Marin Support](https://t.me/Marin_Support).
 Click help button to know my commands!
 """
 
@@ -112,14 +112,14 @@ buttons = [
             callback_data="help_back",
         ),
         InlineKeyboardButton(
-            text="Updates 📢",
-            url="https://t.me/IDNCoder",
+            text="Owner/Panda Bro",
+            url="https://t.me/Im_The_ownerr",
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Add Zeldris to Your Group 👥",
-            url="t.me/ZeldrisRobot?startgroup=true",
+            text="Add Marin to Your Group 👥",
+            url="t.me/Marin_Kitagawa_xbot?startgroup=true",
         ),
     ],
 ]
@@ -264,12 +264,12 @@ def start(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="☎️ Support",
-                            url="https://t.me/IDNCoderX",
+                            text="Cute Owner",
+                            url="https://t.me/im_the_ownerr",
                         ),
                         InlineKeyboardButton(
-                            text="Updates 📡",
-                            url="https://t.me/IDNCoder",
+                            text="Support",
+                            url="https://t.me/Marin_Support",
                         ),
                     ]
                 ]
